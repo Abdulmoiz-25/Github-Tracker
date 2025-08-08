@@ -1,23 +1,24 @@
 # 🚀 GitHub Tracker Backend
 
-The **GitHub Tracker Backend** is the server-side powerhouse of the GitHub Tracker application.  
-It manages all core logic, processes GitHub user and repository data, and delivers it to the frontend through secure and optimized APIs.
+The **GitHub Tracker Backend** is the server-side powerhouse of the GitHub Tracker application. It manages all core logic, processes GitHub user and repository data, and delivers it to the frontend through secure and optimized APIs.
 
 ---
 
 ## 💡 Features
-- ⚡ **Fast & Secure APIs** for fetching GitHub user details, repositories, commits, and stats.  
-- 🔄 **Real-time updates** using WebSockets.  
-- 🚀 **Optimized performance** with caching for frequent requests.  
-- 🛡 **Robust error handling** for smooth API usage.
+
+-   ⚡ **Fast & Secure APIs** for fetching GitHub user details, repositories, commits, and stats.
+-   🔄 **Real-time updates** using WebSockets.
+-   🚀 **Optimized performance** with caching for frequent requests.
+-   🛡 **Robust error handling** for smooth API usage.
 
 ---
 
 ## 🛠 Tech Stack
-- **Backend Framework:** Node.js (Express.js)  
-- **Database:** MongoDB (Mongoose ORM)  
-- **API Communication:** REST API + WebSocket  
-- **Version Control:** Git & GitHub  
+
+-   **Backend Framework:** Node.js (Express.js)
+-   **Database:** MongoDB (Mongoose ORM)
+-   **API Communication:** REST API &#43; WebSocket
+-   **Version Control:** Git & GitHub
 
 ---
 
@@ -34,10 +35,13 @@ backend/
 │── .env.example        # Example environment variables
 │── package.json        # Dependencies
 │── server.js           # Entry point
-⚡ Installation & Setup
-bash
-Copy
-Edit
+```
+
+---
+
+## ⚡ Installation & Setup
+
+```bash
 # Clone the repository
 git clone https://github.com/your-username/github-tracker-backend.git
 
@@ -52,25 +56,45 @@ cp .env.example .env
 
 # Start development server
 npm run dev
-🤝 Team & Contributions
-Name	Role	LinkedIn
-Muzammil Irshad	Designed and implemented the backend architecture, integrated MongoDB, and developed the main API services to fetch and process GitHub data.	<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" width="20"/>
-Abdul Moiz Meer	Developed API endpoints, implemented WebSocket support for real-time updates, and optimized server performance for better scalability.	<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" width="20"/>
-Muqaddar Ali	Created the user interface for the frontend, integrated backend APIs, and ensured a responsive, intuitive design for smooth user experience.	<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" width="20"/>
-Mujtaba Saleh	Worked on frontend styling, built interactive UI components, and connected frontend logic to backend services.	<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" width="20"/>
+```
 
-📜 License
+---
+
+## 🤝 Team & Contributions
+
+**Name:** Muzammil Irshad
+**Role:** Designed and implemented the backend architecture, integrated MongoDB, and developed the main API services to fetch and process GitHub data.
+**LinkedIn:** <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" width="20"/>
+
+**Name:** Abdul Moiz Meer
+**Role:** Developed API endpoints, implemented WebSocket support for real-time updates, and optimized server performance for better scalability.
+**LinkedIn:** <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" width="20"/>
+
+**Name:** Muqaddar Ali
+**Role:** Created the user interface for the frontend, integrated backend APIs, and ensured a responsive, intuitive design for smooth user experience.
+**LinkedIn:** <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" width="20"/>
+
+**Name:** Mujtaba Saleh
+**Role:** Worked on frontend styling, built interactive UI components, and connected frontend logic to backend services.
+**LinkedIn:** <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" width="20"/>
+
+---
+
+## 📜 License
+
 This project is licensed under the MIT License.
 
-💡 Contribution Guidelines
+---
+
+## 💡 Contribution Guidelines
+
 We welcome contributions!
 
-Fork the repository
+1.  Fork the repository
+2.  Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3.  Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4.  Push to the branch (`git push origin feature/AmazingFeature`)
+5.  Open a Pull Request
 
-Create your feature branch (git checkout -b feature/AmazingFeature)
+---
 
-Commit your changes (git commit -m 'Add some AmazingFeature')
-
-Push to the branch (git push origin feature/AmazingFeature)
-
-Open a Pull Request
