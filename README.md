@@ -65,19 +65,19 @@ npm run dev
 
 **Name:** Muzammil Irshad  
 **Role:** Designed and implemented the backend architecture, integrated MongoDB, and developed the main API services to fetch and process GitHub data.  
-**LinkedIn:** <a href="https://www.linkedin.com/in/muzammil-irshad-522a8121b/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" width="20"/></a>
+**LinkedIn:** <a href="https://www.linkedin.com/in/muzammil-irshad-522a8121b/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" width="20" style="vertical-align: middle;"/></a>
 
 **Name:** Abdul Moiz Meer  
 **Role:** Developed API endpoints, implemented WebSocket support for real-time updates, and optimized server performance for better scalability.  
-**LinkedIn:** <a href="https://www.linkedin.com/in/abdul-moiz-meer-9a3863260/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" width="20"/></a>
+**LinkedIn:** <a href="https://www.linkedin.com/in/abdul-moiz-meer-9a3863260/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" width="20" style="vertical-align: middle;"/></a>
 
 **Name:** Muqaddar Ali  
 **Role:** Created the user interface for the frontend, integrated backend APIs, and ensured a responsive, intuitive design for smooth user experience.  
-**LinkedIn:** <a href="https://www.linkedin.com/in/muqaddar-ali-8377052a6/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" width="20"/></a>
+**LinkedIn:** <a href="https://www.linkedin.com/in/muqaddar-ali-8377052a6/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" width="20" style="vertical-align: middle;"/></a>
 
 **Name:** Mujtaba Saleh  
 **Role:** Worked on frontend styling, built interactive UI components, and connected frontend logic to backend services.  
-**LinkedIn:** <a href="https://www.linkedin.com/in/mujtaba-saleh-35a5a8269/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" width="20"/></a>
+**LinkedIn:** <a href="https://www.linkedin.com/in/mujtaba-saleh-35a5a8269/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" width="20" style="vertical-align: middle;"/></a>
 
 ---
 
@@ -100,6 +100,7 @@ We welcome contributions!
 
 ---
 ```
+
 
 
 
