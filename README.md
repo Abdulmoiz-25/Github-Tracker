@@ -22,6 +22,7 @@ It manages all core logic, processes GitHub user and repository data, and delive
 ---
 
 ## 📂 Folder Structure
+
 ```plaintext
 backend/
 │── src/
@@ -33,12 +34,10 @@ backend/
 │── .env.example        # Example environment variables
 │── package.json        # Dependencies
 │── server.js           # Entry point
-```
-
----
-
-## ⚡ Installation & Setup
-```bash
+⚡ Installation & Setup
+bash
+Copy
+Edit
 # Clone the repository
 git clone https://github.com/your-username/github-tracker-backend.git
 
@@ -53,40 +52,25 @@ cp .env.example .env
 
 # Start development server
 npm run dev
-```
+🤝 Team & Contributions
+Name	Role	LinkedIn
+Muzammil Irshad	Designed and implemented the backend architecture, integrated MongoDB, and developed the main API services to fetch and process GitHub data.	<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" width="20"/>
+Abdul Moiz Meer	Developed API endpoints, implemented WebSocket support for real-time updates, and optimized server performance for better scalability.	<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" width="20"/>
+Muqaddar Ali	Created the user interface for the frontend, integrated backend APIs, and ensured a responsive, intuitive design for smooth user experience.	<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" width="20"/>
+Mujtaba Saleh	Worked on frontend styling, built interactive UI components, and connected frontend logic to backend services.	<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" width="20"/>
 
----
-
-## 🤝 Team & Contributions
-
-**Muzammil Irshad**  
-🔗 [LinkedIn](https://www.linkedin.com/)  
-Designed and implemented the backend architecture, integrated MongoDB, and developed the main API services to fetch and process GitHub data.
-
-**Abdul Moiz Meer**  
-🔗 [LinkedIn](https://www.linkedin.com/)  
-Developed API endpoints, implemented WebSocket support for real-time updates, and optimized server performance for better scalability.
-
-**Muqaddar Ali**  
-🔗 [LinkedIn](https://www.linkedin.com/)  
-Created the user interface for the frontend, integrated backend APIs, and ensured a responsive, intuitive design for smooth user experience.
-
-**Mujtaba Saleh**  
-🔗 [LinkedIn](https://www.linkedin.com/)  
-Worked on frontend styling, built interactive UI components, and connected frontend logic to backend services.
-
----
-
-## 📜 License
+📜 License
 This project is licensed under the MIT License.
 
----
-
-## 💡 Contribution Guidelines
+💡 Contribution Guidelines
 We welcome contributions!
 
-1. Fork the repository  
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)  
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)  
-4. Push to the branch (`git push origin feature/AmazingFeature`)  
-5. Open a Pull Request  
+Fork the repository
+
+Create your feature branch (git checkout -b feature/AmazingFeature)
+
+Commit your changes (git commit -m 'Add some AmazingFeature')
+
+Push to the branch (git push origin feature/AmazingFeature)
+
+Open a Pull Request
