@@ -1,4 +1,3 @@
-```
 # 🚀 GitHub Tracker Backend
 
 The **GitHub Tracker Backend** is the server-side powerhouse of the GitHub Tracker application.  
@@ -7,10 +6,10 @@ It manages all core logic, processes GitHub user and repository data, and delive
 ---
 
 ## 💡 Features
--  **Fast & Secure APIs** for fetching GitHub user details, repositories, commits, and stats.  
--  **Real-time updates** using WebSockets.  
--  **Optimized performance** with caching for frequent requests.  
--  **Robust error handling** for smooth API usage.
+- ⚡ **Fast & Secure APIs** for fetching GitHub user details, repositories, commits, and stats.  
+- 🔄 **Real-time updates** using WebSockets.  
+- 🚀 **Optimized performance** with caching for frequent requests.  
+- 🛡 **Robust error handling** for smooth API usage.
 
 ---
 
@@ -60,41 +59,34 @@ npm run dev
 
 ## 🤝 Team & Contributions
 
-### Muzammil Irshad
-[![LinkedIn](https://cdn-icons-png.flaticon.com/512/174/174857.png)](https://www.linkedin.com/in/muzammil-irshad-522a8121b/)  
+**Muzammil Irshad**  
+🔗 [LinkedIn](https://www.linkedin.com/)  
 Designed and implemented the backend architecture, integrated MongoDB, and developed the main API services to fetch and process GitHub data.
 
----
-
-### Abdul Moiz Meer
-[![LinkedIn](https://cdn-icons-png.flaticon.com/512/174/174857.png)](https://www.linkedin.com/in/abdul-moiz-meer-9a3863260/)  
+**Abdul Moiz Meer**  
+🔗 [LinkedIn](https://www.linkedin.com/)  
 Developed API endpoints, implemented WebSocket support for real-time updates, and optimized server performance for better scalability.
 
----
-
-### Muqaddar Ali
-[![LinkedIn](https://cdn-icons-png.flaticon.com/512/174/174857.png)](https://www.linkedin.com/in/muqaddar-ali-8377052a6/)  
+**Muqaddar Ali**  
+🔗 [LinkedIn](https://www.linkedin.com/)  
 Created the user interface for the frontend, integrated backend APIs, and ensured a responsive, intuitive design for smooth user experience.
 
----
-
-### Mujtaba Saleh
-[![LinkedIn](https://cdn-icons-png.flaticon.com/512/174/174857.png)](https://www.linkedin.com/in/mujtaba-saleh-35a5a8269/)  
+**Mujtaba Saleh**  
+🔗 [LinkedIn](https://www.linkedin.com/)  
 Worked on frontend styling, built interactive UI components, and connected frontend logic to backend services.
 
 ---
 
 ## 📜 License
-This project is licensed under the **MIT License**.
+This project is licensed under the MIT License.
 
 ---
 
 ## 💡 Contribution Guidelines
 We welcome contributions!
 
-- Fork the repository  
-- Create your feature branch (`git checkout -b feature/AmazingFeature`)  
-- Commit your changes (`git commit -m 'Add some AmazingFeature'`)  
-- Push to the branch (`git push origin feature/AmazingFeature`)  
-- Open a Pull Request  
-```
+1. Fork the repository  
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)  
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)  
+4. Push to the branch (`git push origin feature/AmazingFeature`)  
+5. Open a Pull Request  
