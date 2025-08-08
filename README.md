@@ -24,7 +24,7 @@ The **GitHub Tracker Backend** is the server-side powerhouse of the GitHub Track
 
 ## 📂 Folder Structure
 
-```plaintext
+\`\`\`plaintext
 backend/
 │── src/
 │   ├── config/         # Configuration files
@@ -35,13 +35,13 @@ backend/
 │── .env.example        # Example environment variables
 │── package.json        # Dependencies
 │── server.js           # Entry point
-```
+\`\`\`
 
 ---
 
 ## ⚡ Installation & Setup
 
-```bash
+\`\`\`bash
 # Clone the repository
 git clone https://github.com/your-username/github-tracker-backend.git
 
@@ -56,26 +56,26 @@ cp .env.example .env
 
 # Start development server
 npm run dev
-```
+\`\`\`
 
 ---
 
 ## 🤝 Team & Contributions
 
-**Name:** Muzammil Irshad
-**Role:** Designed and implemented the backend architecture, integrated MongoDB, and developed the main API services to fetch and process GitHub data.
+**Name:** Muzammil Irshad  
+**Role:** Designed and implemented the backend architecture, integrated MongoDB, and developed the main API services to fetch and process GitHub data.  
 **LinkedIn:** <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" width="20"/>
 
-**Name:** Abdul Moiz Meer
-**Role:** Developed API endpoints, implemented WebSocket support for real-time updates, and optimized server performance for better scalability.
+**Name:** Abdul Moiz Meer  
+**Role:** Developed API endpoints, implemented WebSocket support for real-time updates, and optimized server performance for better scalability.  
 **LinkedIn:** <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" width="20"/>
 
-**Name:** Muqaddar Ali
-**Role:** Created the user interface for the frontend, integrated backend APIs, and ensured a responsive, intuitive design for smooth user experience.
+**Name:** Muqaddar Ali  
+**Role:** Created the user interface for the frontend, integrated backend APIs, and ensured a responsive, intuitive design for smooth user experience.  
 **LinkedIn:** <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" width="20"/>
 
-**Name:** Mujtaba Saleh
-**Role:** Worked on frontend styling, built interactive UI components, and connected frontend logic to backend services.
+**Name:** Mujtaba Saleh  
+**Role:** Worked on frontend styling, built interactive UI components, and connected frontend logic to backend services.  
 **LinkedIn:** <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" width="20"/>
 
 ---
@@ -91,10 +91,9 @@ This project is licensed under the MIT License.
 We welcome contributions!
 
 1.  Fork the repository
-2.  Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3.  Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4.  Push to the branch (`git push origin feature/AmazingFeature`)
+2.  Create your feature branch (\`git checkout -b feature/AmazingFeature\`)
+3.  Commit your changes (\`git commit -m 'Add some AmazingFeature'\`)
+4.  Push to the branch (\`git push origin feature/AmazingFeature\`)
 5.  Open a Pull Request
 
 ---
-
