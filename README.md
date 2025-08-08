@@ -1,73 +1,100 @@
-# 📊 GitHub Contribution Tracker – Backend
-
-The backend of the GitHub Contribution Tracker is built with **Spring Boot (Java 17)** and serves as the core API service.  
-It processes GitHub data, integrates with PostgreSQL, and delivers **real-time updates** via WebSockets.
-
----
-
-## 🚀 Features
-- REST API for searching GitHub users and repositories
-- Integration with **GitHub REST API**
-- **PostgreSQL** database for structured storage
-- Real-time updates via **WebSockets**
-- Error handling for invalid or unavailable profiles
-- Layered architecture for maintainability
-
----
-
-## 🛠️ Tech Stack
-- **Backend Framework:** Spring Boot (Java 17)
-- **Database:** PostgreSQL
-- **Real-time:** WebSockets
-- **HTTP Client:** RestTemplate / WebClient
-- **Build Tool:** Maven
-
----
-
-## 📂 Project Structure
 ```
-src/
- ├── main/
- │   ├── java/com/project/githubtracker
- │   │   ├── controller/       # REST API endpoints
- │   │   ├── service/          # Business logic
- │   │   ├── model/            # Data models
- │   │   └── config/           # App configuration
- │   └── resources/
- │       ├── application.yml   # Environment configs
- │       └── static/           # Static resources
+# 🚀 GitHub Tracker Backend
+
+The **GitHub Tracker Backend** is the server-side powerhouse of the GitHub Tracker application.  
+It manages all core logic, processes GitHub user and repository data, and delivers it to the frontend through secure and optimized APIs.
+
+---
+
+## 💡 Features
+-  **Fast & Secure APIs** for fetching GitHub user details, repositories, commits, and stats.  
+-  **Real-time updates** using WebSockets.  
+-  **Optimized performance** with caching for frequent requests.  
+-  **Robust error handling** for smooth API usage.
+
+---
+
+## 🛠 Tech Stack
+- **Backend Framework:** Node.js (Express.js)  
+- **Database:** MongoDB (Mongoose ORM)  
+- **API Communication:** REST API + WebSocket  
+- **Version Control:** Git & GitHub  
+
+---
+
+## 📂 Folder Structure
+```plaintext
+backend/
+│── src/
+│   ├── config/         # Configuration files
+│   ├── controllers/    # Request handlers
+│   ├── models/         # Database schemas
+│   ├── routes/         # API routes
+│   ├── utils/          # Utility functions
+│── .env.example        # Example environment variables
+│── package.json        # Dependencies
+│── server.js           # Entry point
 ```
 
 ---
 
-## ⚙️ API Endpoints
-| Method | Endpoint                    | Description                       |
-|--------|------------------------------|-----------------------------------|
-| GET    | `/search/user/{username}`    | Search GitHub user by username   |
-| GET    | `/search/repos/{username}`   | Get all repositories of a user   |
-| GET    | `/search/contributions`      | Get user contribution stats      |
-
----
-
-## 📦 Installation & Setup
-1. **Clone repository**
+## ⚡ Installation & Setup
 ```bash
-git clone https://github.com/MuzammilIr/Github-Tracker.git
-cd Github-Tracker
-```
-2. **Configure PostgreSQL**
-   - Create a database
-   - Update `application.yml` with DB credentials
-3. **Run application**
-```bash
-mvn spring-boot:run
-```
-4. **Access API**
-```
-http://localhost:8080
+# Clone the repository
+git clone https://github.com/your-username/github-tracker-backend.git
+
+# Navigate to project directory
+cd github-tracker-backend
+
+# Install dependencies
+npm install
+
+# Create .env file and configure environment variables
+cp .env.example .env
+
+# Start development server
+npm run dev
 ```
 
 ---
 
-## 📄 License
-This project is licensed under the MIT License.
+## 🤝 Team & Contributions
+
+### Muzammil Irshad
+[![LinkedIn](https://cdn-icons-png.flaticon.com/512/174/174857.png)](https://www.linkedin.com/in/muzammil-irshad-522a8121b/)  
+Designed and implemented the backend architecture, integrated MongoDB, and developed the main API services to fetch and process GitHub data.
+
+---
+
+### Abdul Moiz Meer
+[![LinkedIn](https://cdn-icons-png.flaticon.com/512/174/174857.png)](https://www.linkedin.com/in/abdul-moiz-meer-9a3863260/)  
+Developed API endpoints, implemented WebSocket support for real-time updates, and optimized server performance for better scalability.
+
+---
+
+### Muqaddar Ali
+[![LinkedIn](https://cdn-icons-png.flaticon.com/512/174/174857.png)](https://www.linkedin.com/in/muqaddar-ali-8377052a6/)  
+Created the user interface for the frontend, integrated backend APIs, and ensured a responsive, intuitive design for smooth user experience.
+
+---
+
+### Mujtaba Saleh
+[![LinkedIn](https://cdn-icons-png.flaticon.com/512/174/174857.png)](https://www.linkedin.com/in/mujtaba-saleh-35a5a8269/)  
+Worked on frontend styling, built interactive UI components, and connected frontend logic to backend services.
+
+---
+
+## 📜 License
+This project is licensed under the **MIT License**.
+
+---
+
+## 💡 Contribution Guidelines
+We welcome contributions!
+
+- Fork the repository  
+- Create your feature branch (`git checkout -b feature/AmazingFeature`)  
+- Commit your changes (`git commit -m 'Add some AmazingFeature'`)  
+- Push to the branch (`git push origin feature/AmazingFeature`)  
+- Open a Pull Request  
+```
