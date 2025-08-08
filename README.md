@@ -22,9 +22,19 @@ The **GitHub Tracker Backend** is the server-side powerhouse of the GitHub Track
 
 ---
 
+
+## 🛠 Tech Stack
+
+-   **Backend Framework:** Node.js (Express.js)
+-   **Database:** MongoDB (Mongoose ORM)
+-   **API Communication:** REST API &#43; WebSocket
+-   **Version Control:** Git & GitHub
+
+---
+
 ## 📂 Folder Structure
 
-\`\`\`plaintext
+```plaintext
 backend/
 │── src/
 │   ├── config/         # Configuration files
@@ -35,13 +45,13 @@ backend/
 │── .env.example        # Example environment variables
 │── package.json        # Dependencies
 │── server.js           # Entry point
-\`\`\`
+```
 
 ---
 
 ## ⚡ Installation & Setup
 
-\`\`\`bash
+```bash
 # Clone the repository
 git clone https://github.com/your-username/github-tracker-backend.git
 
@@ -56,7 +66,7 @@ cp .env.example .env
 
 # Start development server
 npm run dev
-\`\`\`
+```
 
 ---
 
@@ -97,3 +107,4 @@ We welcome contributions!
 5.  Open a Pull Request
 
 ---
+
