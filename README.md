@@ -77,7 +77,10 @@ npm run dev
 
 ---
 
-[![YouTube Demo](https://upload.wikimedia.org/wikipedia/commons/4/42/YouTube_icon_%282013-2017%29.png)](https://youtu.be/2Sb1S7j31Mo?si=_-5UWbEpiarvP1Jq)
+## 🎥 Project Demo
+
+Watch the live demo of the **GitHub Tracker Frontend** on YouTube:  
+[![YouTube Video](https://upload.wikimedia.org/wikipedia/commons/4/42/YouTube_icon_%282013-2017%29.png)](https://youtu.be/2Sb1S7j31Mo?si=_-5UWbEpiarvP1Jq)
 
 ---
 
@@ -98,6 +101,7 @@ We welcome contributions!
 5.  Open a Pull Request
 
 ---
+
 
 
 
